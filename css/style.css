@@ -13,7 +13,6 @@ body {
     font-size: 30px;
     color: #445161;
     display: block;
-    margin: 0 0 22px 0;
     text-align: center;
 }
 
@@ -83,6 +82,11 @@ body {
 
 .about-product-heading {
     text-align-last: left;
+    margin: 0 0 25px 0;
+}
+
+.about-product-text {
+    margin: 18px 0 0 0;
 }
 
 .about-product:after {
@@ -109,19 +113,24 @@ body {
     background-color: #f5f5f5;
 }
 
+.dignity-heading {
+    margin: 0 0 25px 0;
+}
+
 .dignity-items-left-wrp {
     width: 50%;
     float: left;
 }
 
-.dignity-item-wrp {
-    min-height: 85px;
- }
-
 .dignity-items-right-wrp {
     width: 50%;
     float: right;
 }
+
+.dignity-item-wrp {
+    min-height: 68px;
+    margin: 0 0 30px 0;
+ }
 
 .dignity:after {
     content: "";
@@ -130,35 +139,41 @@ body {
     clear: both;
 }
 
+.dignity-item-wrp:nth-child(3),
+.dignity-item-wrp:nth-child(6) {
+    margin: 0;
+}
+
 details summary::-webkit-details-marker {
     display: none;
 }
 
 .dignity-item-summary {
     outline-style: none;
-    float: left;
     list-style: none;
-    background-color: #445161;
     display: block;
-    width: 32px;
-    height: 32px;
     position: relative;
+    cursor: pointer;
 }
 
 .dignity-item-summary:before {
     content: "+";
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-color: #445161;
     color: #fff;
-    font-size: 40px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 32px;
     position: absolute;
-    top: 6px;
-    left: 5px;
+    top: 3px;
+    left: 1px;
 }
 
 details[open] summary:before {
     content: "-";
-    position: absolute;
-    top: 2px;
-    left: 9px;
 }
 
 .dignity-item-text {
@@ -167,14 +182,13 @@ details[open] summary:before {
 
 /* screenshots section */
 
-.screenshots-items-left-wrp {
-    width: 50%;
-    float: left;
+.screenshots {
+    width: 100%;
+    min-height: 485px;
 }
 
-.screenshots-items-right-wrp {
-    width: 50%;
-    float: right;
+.screenshots-heading {
+    margin: 0 0 30px 0;
 }
 
 .screenshots:after {
@@ -185,11 +199,26 @@ details[open] summary:before {
 }
 
 .screenshots-item {
+    width: 49%;
+    margin: 0 0 30px 0;
+    float: left;
+}
+
+.screenshots-item:nth-child(3),
+.screenshots-item:nth-child(5) {
+    float: right;
+}
+
+.screenshots-item:nth-child(4),
+.screenshots-item:nth-child(5) {
     margin: 0;
 }
 
-.screenshots-item:nth-child(odd) {
-    margin: 0 0 30px 0;
+.screenshots-item:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
 }
 
 .screenshots-item-img {
@@ -208,4 +237,8 @@ details[open] summary:before {
     display: block;
     font-size: 24px;
     color: #445161;
+}
+
+.screenshots-item-description-text {
+    margin: 14px 0 0 0;
 }
