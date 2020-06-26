@@ -127,9 +127,13 @@ body {
     float: right;
 }
 
-.dignity-item-wrp {
+.dignity-item {
     min-height: 68px;
     margin: 0 0 30px 0;
+ }
+
+ .dignity-item:nth-child(3) {
+     margin: 0;
  }
 
 .dignity:after {
@@ -137,11 +141,6 @@ body {
     display: block;
     width: 100%;
     clear: both;
-}
-
-.dignity-item-wrp:nth-child(3),
-.dignity-item-wrp:nth-child(6) {
-    margin: 0;
 }
 
 details summary::-webkit-details-marker {
@@ -227,10 +226,11 @@ details[open] summary:before {
     height: 150px;
     background-color: #445161;
     float: left;
+    margin: 0 10px 0 0;
 }
 
 .screenshots-item-description {
-    margin: 0 0 0 210px;
+    margin: 0;
 }
 
 .screenshots-item-description-heading {
