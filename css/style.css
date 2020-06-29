@@ -68,8 +68,8 @@ body {
     display: block;
     width: 470px;
     height: 213px;
-    background-color: #fff;
     float: right;
+    object-fit: scale-down;
 }
 
 /* about your product section */
@@ -104,7 +104,7 @@ body {
 .about-product-video {
     display: block;
     float: right;
-    background-color: #445161;
+    object-fit: cover;
 }
 
 /* dignity section */
@@ -224,9 +224,9 @@ details[open] summary:before {
     display: block;
     width: 200px;
     height: 150px;
-    background-color: #445161;
     float: left;
     margin: 0 10px 0 0;
+    object-fit: cover;
 }
 
 .screenshots-item-description {
@@ -279,7 +279,8 @@ details[open] summary:before {
     width: 75px;
     height: 75px;
     border-radius: 50%;
-    background-color: #445161;
+    object-fit: cover;
+   
 }
 
 .reviews-item-text {
@@ -401,3 +402,183 @@ details[open] summary:before {
     background-color: #fff;
     color: #445161;
 }
+
+/* footer */
+
+.page-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #445161;
+    color: #fff;
+  }
+  
+  .page-footer-heading {
+      width: 100%;
+      margin: 0 0 30px 0;
+      color: #fff;
+  }
+  
+  .page-footer-form {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 500px;
+      margin: 0 45px 0 0;
+  }
+  
+  .page-footer-form-item {
+      width: 100%;
+      height: 40px;
+      padding: 10px;
+      margin: 0 0 20px 0;
+      background-color: #fff;
+      border: 2px solid transparent;
+      border-radius: 4px;
+      box-sizing: border-box;
+      outline: none;
+  }
+  
+  .page-footer-form-item:hover,
+  .page-footer-form-item:focus {
+      background-color: #ebebeb;
+  }
+  
+  .page-footer-form-item-name {
+      text-transform: capitalize;
+  }
+  
+  input[placeholder],
+  textarea[placeholder] {
+      font-size: 16px;
+      color: #445162;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 24px;
+  }
+  
+  .page-footer-form-textarea {
+      height: 170px;
+      resize: none;
+  }
+  
+  .page-footer-form-btn {
+      width: 140px;
+      min-height: 40px;
+      padding: 9px 4px;
+      background-color: #fff;
+      color: #445161;
+      text-transform: uppercase;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      outline: none;
+      border: 2px solid transparent;
+      border-radius: 4px;
+      box-sizing: border-box;
+  }
+  
+  .page-footer-form-btn:hover {
+      border: 2px solid #fff;
+      background-color: #445161;
+      color: #fff;
+  }
+  
+  .page-footer-form-btn:active {
+      border: 2px solid transparent;
+      background-color: #fff;
+      color: #445161;
+  }
+  
+  .page-footer-contacts {
+      width: 245px;
+      margin: 0;
+  }
+  
+  .page-footer-contacts-link {
+      display: block;
+      font-size: 16px;
+      line-height: 1.6;
+      margin: 0 0 17px 0;
+      padding: 0 0 0 30px;
+      position: relative;
+  }
+
+  .page-footer-contacts-link:last-of-type {
+      margin: 0 0 31px 0;
+  }
+  
+  .page-footer-contacts-link:before {
+      content: "";
+      display: block;
+      width: 24px;
+      height: 24px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+  }
+
+  .link-skype:before {
+      background-image: url(../img/skype-icon.png);  
+  }
+
+  .link-icq:before {
+    background-image: url(../img/icq-icon.png);  
+}
+
+.link-email:before {
+    background-image: url(../img/email-icon.png);  
+}
+
+.link-phone:before {
+    background-image: url(../img/phone-icon.png);  
+}
+
+.page-footer-contscts-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-footer-contscts-icon {
+    display: block;
+    width: 42px;
+    height: 42px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icon-twitter {
+    background-image: url(../img/twitter-icon.png);
+}
+
+.icon-fb {
+    background-image: url(../img/fb-icon.png);
+}
+
+.icon-lin {
+    background-image: url(../img/linkedin-icon.png);
+}
+
+.icon-google {
+    background-image: url(../img/google-icon.png);
+}
+
+.icon-youtube {
+    background-image: url(../img/youtube-icon.png);
+}
+
+.footer-copyright {
+    width: 100%;
+    text-align: center;
+    color: #445161;
+}
+
+.footer-copyright-text {
+    margin: 7px 0;
+    font-size: 12px;
+}
+
+  
