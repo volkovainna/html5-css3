@@ -86,7 +86,11 @@ body {
 }
 
 .about-product-text {
-    margin: 18px 0 0 0;
+    margin: 0 0 18px 0;
+}
+
+.about-product-text:last-child {
+    margin: 0;
 }
 
 .about-product:after {
@@ -536,38 +540,34 @@ details[open] summary:before {
     background-image: url(../img/phone-icon.png);  
 }
 
-.page-footer-contscts-icons {
+/*.page-footer-contacts-icons {
     display: flex;
     justify-content: space-between;
-}
+}*/
 
-.page-footer-contscts-icon {
-    display: block;
-    width: 42px;
+.page-footer-contacts-icon {
+    display: inline-block;
+    width: 45px;
     height: 42px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.icon-twitter {
-    background-image: url(../img/twitter-icon.png);
+  
+    background-image: url(../img/social-sprite.png);   
 }
 
 .icon-fb {
-    background-image: url(../img/fb-icon.png);
+    background-position: -49px 0px;
 }
 
 .icon-lin {
-    background-image: url(../img/linkedin-icon.png);
+    background-position: -98px 0;
 }
 
+
 .icon-google {
-    background-image: url(../img/google-icon.png);
+    background-position: -147px 0;
 }
 
 .icon-youtube {
-    background-image: url(../img/youtube-icon.png);
+    background-position: -196px 0;
 }
 
 .footer-copyright {
