@@ -134,11 +134,11 @@ body {
 .dignity-item {
     min-height: 68px;
     margin: 0 0 30px 0;
- }
+}
 
- .dignity-item:nth-child(3) {
-     margin: 0;
- }
+.dignity-item:nth-child(3) {
+    margin: 0;
+}
 
 .dignity:after {
     content: "";
@@ -284,7 +284,7 @@ details[open] summary:before {
     height: 75px;
     border-radius: 50%;
     object-fit: cover;
-   
+
 }
 
 .reviews-item-text {
@@ -324,7 +324,7 @@ details[open] summary:before {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-end;   
+    align-items: flex-end;
 }
 
 .buy-heading {
@@ -350,7 +350,7 @@ details[open] summary:before {
     padding: 15px;
     box-sizing: border-box;
     font-size: 24px;
-    text-transform: capitalize;   
+    text-transform: capitalize;
 }
 
 .buy-item-price {
@@ -387,7 +387,7 @@ details[open] summary:before {
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
-    display: flex;   
+    display: flex;
     cursor: pointer;
 }
 
@@ -415,142 +415,136 @@ details[open] summary:before {
     justify-content: center;
     background-color: #445161;
     color: #fff;
-  }
-  
-  .page-footer-heading {
-      width: 100%;
-      margin: 0 0 30px 0;
-      color: #fff;
-  }
-  
-  .page-footer-form {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      width: 500px;
-      margin: 0 45px 0 0;
-  }
-  
-  .page-footer-form-item {
-      width: 100%;
-      height: 40px;
-      padding: 10px;
-      margin: 0 0 20px 0;
-      background-color: #fff;
-      border: 2px solid transparent;
-      border-radius: 4px;
-      box-sizing: border-box;
-      outline: none;
-  }
-  
-  .page-footer-form-item:hover,
-  .page-footer-form-item:focus {
-      background-color: #ebebeb;
-  }
-  
-  .page-footer-form-item-name {
-      text-transform: capitalize;
-  }
-  
-  input[placeholder],
-  textarea[placeholder] {
-      font-size: 16px;
-      color: #445162;
-      font-family: Arial, Helvetica, sans-serif;
-      line-height: 24px;
-  }
-  
-  .page-footer-form-textarea {
-      height: 170px;
-      resize: none;
-  }
-  
-  .page-footer-form-btn {
-      width: 140px;
-      min-height: 40px;
-      padding: 9px 4px;
-      background-color: #fff;
-      color: #445161;
-      text-transform: uppercase;
-      font-size: 16px;
-      font-weight: bold;
-      cursor: pointer;
-      outline: none;
-      border: 2px solid transparent;
-      border-radius: 4px;
-      box-sizing: border-box;
-  }
-  
-  .page-footer-form-btn:hover {
-      border: 2px solid #fff;
-      background-color: #445161;
-      color: #fff;
-  }
-  
-  .page-footer-form-btn:active {
-      border: 2px solid transparent;
-      background-color: #fff;
-      color: #445161;
-  }
-  
-  .page-footer-contacts {
-      width: 245px;
-      margin: 0;
-  }
-  
-  .page-footer-contacts-link {
-      display: block;
-      font-size: 16px;
-      line-height: 1.6;
-      margin: 0 0 17px 0;
-      padding: 0 0 0 30px;
-      position: relative;
-  }
+}
 
-  .page-footer-contacts-link:last-of-type {
-      margin: 0 0 31px 0;
-  }
-  
-  .page-footer-contacts-link:before {
-      content: "";
-      display: block;
-      width: 24px;
-      height: 24px;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      position: absolute;
-      top: 0;
-      left: 0;
-  }
+.page-footer-heading {
+    width: 100%;
+    margin: 0 0 30px 0;
+    color: #fff;
+}
 
-  .link-skype:before {
-      background-image: url(../img/skype-icon.png);  
-  }
+.page-footer-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 500px;
+    margin: 0 45px 0 0;
+}
 
-  .link-icq:before {
-    background-image: url(../img/icq-icon.png);  
+.page-footer-form-item {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    margin: 0 0 20px 0;
+    background-color: #fff;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.page-footer-form-item:hover,
+.page-footer-form-item:focus {
+    background-color: #ebebeb;
+}
+
+.page-footer-form-item-name {
+    text-transform: capitalize;
+}
+
+input[placeholder],
+textarea[placeholder] {
+    font-size: 16px;
+    color: #445162;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
+}
+
+.page-footer-form-textarea {
+    height: 170px;
+    resize: none;
+}
+
+.page-footer-form-btn {
+    width: 140px;
+    min-height: 40px;
+    padding: 9px 4px;
+    background-color: #fff;
+    color: #445161;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.page-footer-form-btn:hover {
+    border: 2px solid #fff;
+    background-color: #445161;
+    color: #fff;
+}
+
+.page-footer-form-btn:active {
+    border: 2px solid transparent;
+    background-color: #fff;
+    color: #445161;
+}
+
+.page-footer-contacts {
+    width: 245px;
+    margin: 0;
+}
+
+.page-footer-contacts-link {
+    display: block;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0 0 17px 0;
+    padding: 0 0 0 30px;
+    position: relative;
+}
+
+.page-footer-contacts-link:last-of-type {
+    margin: 0 0 31px 0;
+}
+
+.page-footer-contacts-link:before {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.link-skype:before {
+    background-image: url(../img/skype-icon.png);
+}
+
+.link-icq:before {
+    background-image: url(../img/icq-icon.png);
 }
 
 .link-email:before {
-    background-image: url(../img/email-icon.png);  
+    background-image: url(../img/email-icon.png);
 }
 
 .link-phone:before {
-    background-image: url(../img/phone-icon.png);  
+    background-image: url(../img/phone-icon.png);
 }
-
-/*.page-footer-contacts-icons {
-    display: flex;
-    justify-content: space-between;
-}*/
 
 .page-footer-contacts-icon {
     display: inline-block;
     width: 45px;
     height: 42px;
-  
-    background-image: url(../img/social-sprite.png);   
+    background-image: url(../img/social-sprite.png);
 }
 
 .icon-fb {
@@ -580,5 +574,3 @@ details[open] summary:before {
     margin: 7px 0;
     font-size: 12px;
 }
-
-  
