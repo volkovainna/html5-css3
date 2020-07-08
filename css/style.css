@@ -551,6 +551,7 @@ body {
     color: #8c8c8c;
     background-color: #fff;
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 .projects-menu-item:hover {
@@ -575,6 +576,7 @@ body {
 
 .projects-item {
     position: relative;
+    cursor: pointer;
 }
 
 .projects-item-img {
@@ -628,6 +630,7 @@ body {
     background-color: transparent;
     position: absolute;
     top: 100px;
+    cursor: pointer;
 }
 
 .projects-item-link {
@@ -685,6 +688,7 @@ body {
     border: none;
     outline: none;
     margin: 40px auto 80px auto;
+    cursor: pointer;
 }
 
 /* video section */
@@ -1007,7 +1011,7 @@ details[open] .right-arrow-icon {
     border: 4px solid transparent;
     border-left: 4px solid #c7b299;
     position: absolute;
-    top: 6px;
+    top: 5px;
     left: 84px;
 }
 
@@ -1045,6 +1049,14 @@ details[open] .right-arrow-icon {
     border-left: 4px solid #fff;
 }
 
+.read-more-link:active {
+    color: #c7b299;
+}
+
+.read-more-link:active:after {
+    border-left: 4px solid #c7b299;
+}
+
 .posts-btn {
     border: none;
     background-color: transparent;
@@ -1060,6 +1072,10 @@ details[open] .right-arrow-icon {
 
 .posts-btn-svg:hover {
     fill: #c7b299;
+}
+
+.posts-btn-svg:active {
+    fill: #d1d1d1;
 }
 
 /* partners section */
@@ -1079,6 +1095,11 @@ details[open] .right-arrow-icon {
 .partners-logo {
     margin: 35px;
     box-sizing: border-box;
+    transition: transform 0.5s;
+}
+
+.partners-logo:hover {
+    transform: scale(1.1);
 }
 
 /* footer */
@@ -1128,6 +1149,14 @@ details[open] .right-arrow-icon {
     border-left: 4px solid #bfab94;
 }
 
+.footer-info-waxom-link:active {
+    color: #fff;
+}
+
+.footer-info-waxom-link:active:after {
+    border-left: 4px solid #fff;
+}
+
 .footer-posts {
     width: 270px;
     margin: 106px 0 0 0;
@@ -1140,28 +1169,20 @@ details[open] .right-arrow-icon {
     font-size: 24px;
 }
 
-.footer-posts-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.footer-posts-item {
+.footer-posts-link {
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 24px;
+    color: #555555;
     padding: 22px 0;
     box-sizing: border-box;
     border-bottom: 1px solid rgba(85, 85, 85, 0.2);
 }
 
-.footer-posts-item:last-child {
-    padding: 22px 0 0 0;
+.footer-posts-link:last-child {
     border: none;
-}
-
-.footer-posts-link {
-    text-decoration: none;
-    font-size: 14px;
-    line-height: 24px;
-    color: #555555;
+    padding: 22px 0 0 0;
 }
 
 .footer-posts-date {
@@ -1192,13 +1213,8 @@ details[open] .right-arrow-icon {
     font-size: 24px;
 }
 
-.footer-twitter-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.footer-twitter-item {
+.footer-twitter-link {
+    display: block;
     font-size: 14px;
     line-height: 24px;
     color: #555555;
@@ -1228,6 +1244,14 @@ details[open] .right-arrow-icon {
     color: #959595;
 }
 
+.footer-twitter-link:hover .footer-twitter-text {
+    color: #c7b299;
+}
+
+.footer-twitter-link:hover .footer-twitter-time {
+    color: #fff;
+}
+
 .footer-dribbble {
     width: 270px;
     margin: 106px 0 0 0;
@@ -1253,6 +1277,14 @@ details[open] .right-arrow-icon {
     display: block;
     width: 130px;
     height: 98px;
+}
+
+.footer-dribbble-img {
+    transition: transform 0.5s;
+}
+
+.footer-dribbble-img:hover {
+    transform: scale(1.05);
 }
 
 .footer-copyright {
