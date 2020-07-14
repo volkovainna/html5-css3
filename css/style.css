@@ -1469,7 +1469,6 @@ details[open] .right-arrow-icon {
     color: #959595;
 }
 
-
 @media (max-width: 480px) {
     .container {
         width: 100%;
@@ -1494,17 +1493,19 @@ details[open] .right-arrow-icon {
     .main-header-top-wrp {
         width: 100%;
         display: flex;
-        flex-wrap: wrap;
         padding: 20px;
         margin: 0;
         box-sizing: border-box;
+        position: relative;
     }
-    .logo {
-        width: 100%;
+    .logo-header {
+        position: absolute;
         justify-content: start;
     }
     .main-header-menu {
         width: 100%;
+        justify-content: flex-end;
+        flex-wrap: wrap;
     }
     .main-header-menu-list {
         flex-direction: column;
@@ -1548,11 +1549,11 @@ details[open] .right-arrow-icon {
     }
     .burger-menu-label {
         display: block;
-        position: absolute;
-        top: 38px;
-        left: 430px;
         width: 30px;
         height: 30px;
+        position: relative;
+        margin: 13px 0;
+        box-sizing: border-box;
     }
     .burger-menu-line,
     .burger-menu-line:after,
@@ -1676,7 +1677,7 @@ details[open] .right-arrow-icon {
     }
     .projects-menu {
         flex-direction: column;
-        margin: 60px 0 0 0;
+        margin: 0;
         box-sizing: border-box;
         visibility: hidden;
         height: 0;
@@ -1713,11 +1714,10 @@ details[open] .right-arrow-icon {
     }
     .burger-menu-projects-label {
         display: block;
-        position: absolute;
-        top: 148px;
-        left: 225px;
+        margin: 15px auto 5px auto;
         width: 30px;
         height: 30px;
+        position: relative;
     }
     .burger-menu-projects-line,
     .burger-menu-projects-line:after,
@@ -1869,6 +1869,7 @@ details[open] .right-arrow-icon {
         padding: 20px;
     }
     .logo-footer {
+        display: block;
         margin: 0 auto;
     }
     .footer-info-waxom {
